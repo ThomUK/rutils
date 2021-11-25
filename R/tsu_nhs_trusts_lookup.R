@@ -4,8 +4,11 @@
 #'  result.  Defaults to FALSE.
 #'
 #' @return A dataframe of active trusts.
+#'
+#' @importFrom magrittr %>%
+#' @export
 
-nhs_trusts_lookup <- function(include_inactive = FALSE){
+tsu_nhs_trusts_lookup <- function(include_inactive = FALSE){
 
   active_string <- ifelse(include_inactive, "", "&Status=Active")
 
