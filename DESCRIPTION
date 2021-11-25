@@ -13,3 +13,5 @@ Imports:
     httr,
     magrittr,
     tidyr
+URL: https://github.com/ThomUK/rutils
+BugReports: https://github.com/ThomUK/rutils/issues
